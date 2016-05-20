@@ -19,17 +19,17 @@ public class mode : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
             tankMode = 1;
 			indic.color = new Color(1f, 0f, 0f);
-			gameObject.GetComponent<tankmove> ().bulSpeed = 7;
+			gameObject.GetComponent<shoot> ().bulSpeed = 7;
         }
         if (Input.GetKeyDown(KeyCode.Alpha2)) {
             tankMode = 2;
 			indic.color = new Color(0f, 1f, 0f);
-			gameObject.GetComponent<tankmove> ().bulSpeed = 5;
+			gameObject.GetComponent<shoot> ().bulSpeed = 5;
         }
         if (Input.GetKeyDown(KeyCode.Alpha3)) {
             tankMode = 3;
             indic.color = new Color(0f, 0f, 1f);
-			gameObject.GetComponent<tankmove> ().bulSpeed = 2;
+			gameObject.GetComponent<shoot> ().bulSpeed = 2;
         }
     }
 }

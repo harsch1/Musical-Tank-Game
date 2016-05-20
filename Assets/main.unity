@@ -448,6 +448,7 @@ GameObject:
   - 114: {fileID: 517753440}
   - 50: {fileID: 517753439}
   - 114: {fileID: 517753441}
+  - 114: {fileID: 517753442}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -499,11 +500,7 @@ MonoBehaviour:
   speed: 7
   rot: 2
   drag: 0
-  bulSpeed: 5
   treads: {fileID: 770021018}
-  bullet: {fileID: 181226, guid: fc65bb7e075856a438007d07b0d28fd1, type: 2}
-  barrel: {fileID: 1085740062}
-  timer: 0
 --- !u!114 &517753441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,6 +514,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tankMode: 0
   indic: {fileID: 1537780421}
+--- !u!114 &517753442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517753437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 764565639e9c3a3448e62bb1c6571b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulSpeed: 5
+  bullet: {fileID: 181226, guid: fc65bb7e075856a438007d07b0d28fd1, type: 2}
+  barrel: {fileID: 1085740062}
+  timer: 5
 --- !u!1 &578522515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,7 +1218,7 @@ GameObject:
   - 135: {fileID: 1097616213}
   - 23: {fileID: 1097616212}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
