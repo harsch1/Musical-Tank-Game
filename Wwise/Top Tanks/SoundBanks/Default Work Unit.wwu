@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5572294-EFF5-4504-8D00-69D0874DD1E3}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B5572294-EFF5-4504-8D00-69D0874DD1E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{8667CC3A-E031-478F-A2CB-FCF7E00D51A4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="SceneStart" ID="{65444C36-D29C-496A-8AF0-3A04C0947F68}" WorkUnitID="{A97478DD-8D8E-4F81-A0C6-323AA58DD7D1}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Explode" ID="{E61058B6-6654-41BD-BDF8-031EE5D4CAAE}" WorkUnitID="{A97478DD-8D8E-4F81-A0C6-323AA58DD7D1}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

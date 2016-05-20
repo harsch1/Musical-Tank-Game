@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AC76FAE-47A4-44B2-B8C2-832864889586}" SchemaVersion="70">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{3AC76FAE-47A4-44B2-B8C2-832864889586}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{5E917C00-428B-485D-82B9-301326642FC5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="SceneStart" ID="{65444C36-D29C-496A-8AF0-3A04C0947F68}" WorkUnitID="{A97478DD-8D8E-4F81-A0C6-323AA58DD7D1}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explode" ID="{E61058B6-6654-41BD-BDF8-031EE5D4CAAE}" WorkUnitID="{A97478DD-8D8E-4F81-A0C6-323AA58DD7D1}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Standard hit" ID="{24C7C624-D2B4-4EA4-A10A-897492C698D6}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Wall collision 2" ID="{A5B22769-7BF6-4076-A4E4-6EADEE9F04F0}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+						<CurrentStateRef Name="Heavylvl2" ID="{1EEAEF12-898E-45A5-83AD-2F2DDBD0B1BC}"/>
+						<CurrentStateRef Name="Lightlvl1" ID="{61CE10DF-5023-40ED-98A3-E19339DFBAD2}"/>
+						<CurrentStateRef Name="Medlvl1" ID="{CA112F6C-DBCA-49F3-BC76-0339E61647D7}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

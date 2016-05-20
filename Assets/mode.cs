@@ -7,7 +7,7 @@ public class mode : MonoBehaviour {
     public Image indic;
 	// Use this for initialization
 	void Start () {
-	
+		tankMode = 1;
 	}
 	
 	// Update is called once per frame
@@ -18,15 +18,18 @@ public class mode : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
             tankMode = 1;
-            indic.color = new Color(1f, 0f, 0f);
+			indic.color = new Color(1f, 0f, 0f);
+			gameObject.GetComponent<tankmove> ().bulSpeed = 7;
         }
         if (Input.GetKeyDown(KeyCode.Alpha2)) {
             tankMode = 2;
-            indic.color = new Color(0f, 1f, 0f);
+			indic.color = new Color(0f, 1f, 0f);
+			gameObject.GetComponent<tankmove> ().bulSpeed = 5;
         }
         if (Input.GetKeyDown(KeyCode.Alpha3)) {
             tankMode = 3;
             indic.color = new Color(0f, 0f, 1f);
+			gameObject.GetComponent<tankmove> ().bulSpeed = 2;
         }
     }
 }

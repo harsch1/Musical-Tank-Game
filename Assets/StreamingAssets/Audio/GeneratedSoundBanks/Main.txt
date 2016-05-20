@@ -1,0 +1,63 @@
+Event	ID	Name			Wwise Object Path	Notes
+	948631664	Explode			\Default Work Unit\Explode	
+	2235955837	SceneStart			\Default Work Unit\SceneStart	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	219679869	Light_Weapon_Level			\Default Work Unit\Light_Weapon_Level	
+	254207936	Medium_Weapon_Level			\Default Work Unit\Medium_Weapon_Level	
+	2322619338	Heavy_Weapon_Level			\Default Work Unit\Heavy_Weapon_Level	
+	2678880713	Fire			\Default Work Unit\Fire	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Light_Weapon_Level			
+	4053378148	Lightlvl1	Light_Weapon_Level			
+	4053378151	Lightlvl2	Light_Weapon_Level			
+	748895195	None	Medium_Weapon_Level			
+	3249424521	Medlvl2	Medium_Weapon_Level			
+	3249424522	Medlvl1	Medium_Weapon_Level			
+	748895195	None	Heavy_Weapon_Level			
+	2393476185	Heavylvl1	Heavy_Weapon_Level			
+	2393476186	Heavylvl2	Heavy_Weapon_Level			
+	134066134	Fire_Med	Fire			
+	673833536	Fire_Light	Fire			
+	748895195	None	Fire			
+	2045292529	Fire_Heavy	Fire			
+	3752417319	No_Fire	Fire			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	3199064	No_Fire	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon		
+	108466528	Medlvl1	Medium_Weapon_Level	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon 2		
+	145196912	No_Fire	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon		
+	260689238	Fire_Light	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 2		
+	272026855	No_Fire	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 2		
+	274198184	Fire_Heavy	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon 2		
+	323710009	Fire_Light	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon		
+	347335543	Lightlvl2	Light_Weapon_Level	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon		
+	376302128	Fire_Heavy	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon		
+	419435812	No_Fire	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 1		
+	438458099	Medlvl2	Medium_Weapon_Level	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon		
+	455816705	No_Fire	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon 2		
+	486451562	Fire_Med	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 2		
+	501110324	Fire_Med	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon		
+	541149949	No_Fire	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon Gated		
+	630106975	Fire_Med	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon Gated		
+	728631925	Fire_Med	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 1		
+	824259350	Fire_Heavy	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon Gated		
+	836596880	Lightlvl1	Light_Weapon_Level	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon Gated		
+	848789009	Fire_Heavy	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon		
+	931388112	Heavylvl1	Heavy_Weapon_Level	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 2		
+	976979052	Fire_Light	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 1		
+	978645473	Fire_Light	Fire	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon 2		
+	992862311	Heavylvl2	Heavy_Weapon_Level	\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 1		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	63400457	Light Weapon	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Light Weapon_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon		8574548
+	108444384	Back Track	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Back Track_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Back Tracks\Back Track		8573848
+	335201519	Light Weapon Gated	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Light Weapon Gated_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Light Weapon Gated		8574548
+	453298047	Drum Track	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Drum Track_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Back Tracks\Drum Track		8574548
+	777841029	Explosion A	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Explosion B_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Explosion A		710896
+	819325650	Mid Weapon 2	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Mid Weapon 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon 2		8574548
+	867113985	Mid Weapon	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Mid Weapon_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Mid Weapon		8574548
+	928694071	Heavy Weapon 1	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Heavy Weapon 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 1		8574548
+	937064009	Heavy Weapon 2	C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\SFX\Heavy Weapon 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons Tracks\Heavy Weapon 2		8574548
+

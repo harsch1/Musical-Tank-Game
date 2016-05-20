@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A97478DD-8D8E-4F81-A0C6-323AA58DD7D1}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A97478DD-8D8E-4F81-A0C6-323AA58DD7D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="SceneStart" ID="{65444C36-D29C-496A-8AF0-3A04C0947F68}">
+					<ChildrenList>
+						<Action Name="Play" ID="{514529AA-6462-48DC-8F9F-7F65D1C0AA04}" ShortID="363978890" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{75BDAA90-AAC5-4444-99D4-9BF01521F759}" Global="false">
+									<ObjectRef Name="Drum Track" ID="{0D84AED5-49CB-4DE5-8CAA-3D554C0488A0}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{97421CEA-4D91-443C-A973-5D430D16C6DC}" ShortID="932654955" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{433CBCD3-14DC-49CF-A694-4FC22E78DA0C}" Global="false">
+									<ObjectRef Name="Back Track" ID="{485E72F5-C06F-4936-8134-9114FF1F5F35}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{F5F21D80-8356-4D9E-8F22-977BBF09DF77}" ShortID="23923320" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F1BCC413-A0C5-411A-B80D-1B3B2907DC70}" Global="false">
+									<ObjectRef Name="Heavy Weapon 1" ID="{108B7714-DC30-4AB7-BD14-AE64CF9B3942}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{FAD5B3AF-22DA-488C-9C8A-4CE1BBB7AF88}" ShortID="446689203" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{48A33CB0-B1BF-4826-B4A0-A321314A70B5}" Global="false">
+									<ObjectRef Name="Light Weapon" ID="{BDACDA18-357F-46BA-84C0-7B63644B0F9B}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{D977D9B6-1E6C-49E9-92B8-8934BE39928F}" ShortID="566888494" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BFDB6BF2-B744-40B2-B47B-B22E7922F3C5}" Global="false">
+									<ObjectRef Name="Mid Weapon" ID="{702EA683-EC0E-4E76-8AB7-9585C08C456A}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B5A3C9E2-0FCE-4EC5-B2B3-386D73314051}" ShortID="758509047" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0DA87E27-80E5-4799-BA40-4A031411174B}" Global="false">
+									<ObjectRef Name="Heavy Weapon 2" ID="{1635E8AD-DD14-422F-AFD1-C34C8DBCEBEE}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{6055AC24-0703-448C-A261-DB427B93CFCD}" ShortID="45176019" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F96E5C8B-9707-4453-B71D-786625726EBA}" Global="false">
+									<ObjectRef Name="Mid Weapon 2" ID="{EB7FC1E1-9C51-4F2B-A9BB-411809B8B2C3}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{6A9A5FF5-B6DF-4E69-B795-CB07DC897CA3}" ShortID="572846583" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6BFA862D-0735-411E-9C18-959A141CD2E4}" Global="false">
+									<ObjectRef Name="Light Weapon Gated" ID="{7B285461-92F6-497A-B817-4CCF70F7D936}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Explode" ID="{E61058B6-6654-41BD-BDF8-031EE5D4CAAE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{008F62F8-F08D-421F-8AA8-173FFA8C041E}" ShortID="408284807" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D0CB4394-D001-4217-B9FE-D57377FB51FC}" Global="false">
+									<ObjectRef Name="Explosion A" ID="{8B8544F5-F216-4206-B340-C527C84C234B}" WorkUnitID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

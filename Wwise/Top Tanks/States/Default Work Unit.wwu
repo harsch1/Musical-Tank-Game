@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F716AEAF-EA66-4AF6-9962-2BD393D8B682}" SchemaVersion="70">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{F716AEAF-EA66-4AF6-9962-2BD393D8B682}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Fire" ID="{E17C3A23-018F-4463-87DF-E73152F61F20}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{B4DEAD5F-7A3B-4604-9E77-4DB279B6DD36}"/>
+						<State Name="Fire_Light" ID="{344BDD09-DCBF-4F17-82DB-AE3C508AA883}"/>
+						<State Name="Fire_Med" ID="{C83C6437-1AEE-4B24-BFE1-4FBDE6B511B9}"/>
+						<State Name="Fire_Heavy" ID="{EE065A9B-00BA-4C77-BAB8-4B473CFFAAB5}"/>
+						<State Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Fire_Heavy" ID="{EE065A9B-00BA-4C77-BAB8-4B473CFFAAB5}"/>
+							<EndState Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Fire_Light" ID="{344BDD09-DCBF-4F17-82DB-AE3C508AA883}"/>
+							<EndState Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+							<Time>0.2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Fire_Med" ID="{C83C6437-1AEE-4B24-BFE1-4FBDE6B511B9}"/>
+							<EndState Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Heavy_Weapon_Level" ID="{39BB1945-26FE-48F2-B0E7-0BCE7531F46B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{5DBC9FCC-898D-462F-AC7F-F1C620A8CE7B}"/>
+						<State Name="Heavylvl1" ID="{2411E179-8465-41A9-9A42-371A52819ECE}"/>
+						<State Name="Heavylvl2" ID="{1EEAEF12-898E-45A5-83AD-2F2DDBD0B1BC}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Medium_Weapon_Level" ID="{AB1097CE-E1A2-4A71-90A0-4357A2431AE0}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{6BC45114-DA0F-4420-8BA3-2096FB0D53C1}"/>
+						<State Name="Medlvl1" ID="{CA112F6C-DBCA-49F3-BC76-0339E61647D7}"/>
+						<State Name="Medlvl2" ID="{8CC17AF8-A486-4A99-B9C9-80B6AEADE0F3}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Light_Weapon_Level" ID="{E24AEF98-F31E-4D98-ABCD-A8FCEEA8553D}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{47725612-5E53-4616-BC27-1DFA791B4DD9}"/>
+						<State Name="Lightlvl1" ID="{61CE10DF-5023-40ED-98A3-E19339DFBAD2}"/>
+						<State Name="Lightlvl2" ID="{CBAD0E4A-9D8A-4726-842C-66F44BCF5659}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

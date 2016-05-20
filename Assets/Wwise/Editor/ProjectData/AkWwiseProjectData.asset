@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ace9f90ad2f0448af543a2c8a3060d, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: Profile
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{A97478DD-8D8E-4F81-A0C6-323AA58DD7D1}'
+    m_lastTimePsrt1: -1943552814
+    m_lastTimePart2: -1999404961
+    List:
+    - Name: Explode
+      Path: Default Work Unit\Explode
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Explode
+        ObjectType: 3
+      ID: 948631664
+      Guid: b65810e65466bd41bdf8031ee5d4caae
+      maxAttenuation: 0
+    - Name: SceneStart
+      Path: Default Work Unit\SceneStart
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SceneStart
+        ObjectType: 3
+      ID: -2059011459
+      Guid: 364c44659cd26a498af03a04c0947f68
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{CD8F74DE-0452-49F1-A926-F43010339F80}'
+    m_lastTimePsrt1: 663449952
+    m_lastTimePart2: -1999404971
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{F716AEAF-EA66-4AF6-9962-2BD393D8B682}'
+    m_lastTimePsrt1: -1943693567
+    m_lastTimePart2: -1999404961
+    List:
+    - Name: Fire
+      Path: Default Work Unit\Fire
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Fire
+        ObjectType: 9
+      ID: -1616086583
+      Guid: 233a7ce18f01634487dfe73152f61f20
+      values:
+      - Fire_Heavy
+      - Fire_Light
+      - Fire_Med
+      - No_Fire
+      - None
+      ValueIcons:
+      - ElementName: Fire_Heavy
+        ObjectType: 8
+      - ElementName: Fire_Light
+        ObjectType: 8
+      - ElementName: Fire_Med
+        ObjectType: 8
+      - ElementName: No_Fire
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: f1afe87940e22928d6affd072758a9dfdb3ba32c
+      ValueGuids:
+      - bytes: 9b5a06eeba00774cbab84b473cffaab5
+      - bytes: 09dd4b34bfdc174f82dbae3c508aa883
+      - bytes: 37643cc8ee1a244bbfe14fbde6b511b9
+      - bytes: 3ec475720dd89a46879507125df34f10
+      - bytes: 5faddeb43b7a04469e774db279b6dd36
+    - Name: Heavy_Weapon_Level
+      Path: Default Work Unit\Heavy_Weapon_Level
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Heavy_Weapon_Level
+        ObjectType: 9
+      ID: -1972347958
+      Guid: 4519bb39fe26f248b0e70bce7531f46b
+      values:
+      - Heavylvl1
+      - Heavylvl2
+      - None
+      ValueIcons:
+      - ElementName: Heavylvl1
+        ObjectType: 8
+      - ElementName: Heavylvl2
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: 598ca98e5a8ca98edb3ba32c
+      ValueGuids:
+      - bytes: 79e111246584a9419a42371a52819ece
+      - bytes: 12efea1e8e89a54583ad2f2ddbd0b1bc
+      - bytes: cc9fbc5d8d892f46ac7ff1c620a8ce7b
+    - Name: Light_Weapon_Level
+      Path: Default Work Unit\Light_Weapon_Level
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Light_Weapon_Level
+        ObjectType: 9
+      ID: 219679869
+      Guid: 98ef4ae21ef3984dabcda8fceea8553d
+      values:
+      - Lightlvl1
+      - Lightlvl2
+      - None
+      ValueIcons:
+      - ElementName: Lightlvl1
+        ObjectType: 8
+      - ElementName: Lightlvl2
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: 64a499f167a499f1db3ba32c
+      ValueGuids:
+      - bytes: df10ce612350ed4098a3e19339dfbad2
+      - bytes: 4a0eadcb8a9d2647842c66f44bcf5659
+      - bytes: 12567247535e1646bc271dfa791b4dd9
+    - Name: Medium_Weapon_Level
+      Path: Default Work Unit\Medium_Weapon_Level
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Medium_Weapon_Level
+        ObjectType: 9
+      ID: 254207936
+      Guid: ce9710aba2e1714a90a04357a2431ae0
+      values:
+      - Medlvl1
+      - Medlvl2
+      - None
+      ValueIcons:
+      - ElementName: Medlvl1
+        ObjectType: 8
+      - ElementName: Medlvl2
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: 8a48aec18948aec1db3ba32c
+      ValueGuids:
+      - bytes: 6c2f11cacadbf349bc760339e61647d7
+      - bytes: f87ac18c86a4994ab9c980b6aeade0f3
+      - bytes: 1451c46b0fda20448ba32096fb0d53c1
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{BB78C6C7-0D9B-4AA4-8C61-2E8D2A115F89}'
+    m_lastTimePsrt1: 663209186
+    m_lastTimePart2: -1999404971
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{B5572294-EFF5-4504-8D00-69D0874DD1E3}'
+    m_lastTimePsrt1: 1487722108
+    m_lastTimePart2: -1999404958
+    List:
+    - Name: Main
+      Path: Default Work Unit\Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      ID: -1133058374
+      Guid: 3acc678631e08f47a2cbfcf7e00d51a4
+  ExpandedItems:
+  - /Top Tanks
+  - /Top Tanks/SoundBanks
+  - /Top Tanks/SoundBanks/Default Work Unit
+  - /Top Tanks/States
+  - /Top Tanks/States/Default Work Unit
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95

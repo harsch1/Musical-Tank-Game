@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Minotaur MKII\Desktop\BASS CANON\tank-game\Wwise\Top Tanks\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="948631664" Name="Explode"/>
+				<Event Id="2235955837" Name="SceneStart"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="63400457" Language="SFX">
+					<ShortName>Light Weapon.wav</ShortName>
+					<Path>SFX\Light Weapon_9E69E797.wem</Path>
+				</File>
+				<File Id="108444384" Language="SFX">
+					<ShortName>Back Track.wav</ShortName>
+					<Path>SFX\Back Track_9E69E797.wem</Path>
+				</File>
+				<File Id="335201519" Language="SFX">
+					<ShortName>Light Weapon Gated.wav</ShortName>
+					<Path>SFX\Light Weapon Gated_9E69E797.wem</Path>
+				</File>
+				<File Id="453298047" Language="SFX">
+					<ShortName>Drum Track.wav</ShortName>
+					<Path>SFX\Drum Track_9E69E797.wem</Path>
+				</File>
+				<File Id="777841029" Language="SFX">
+					<ShortName>Explosion B.wav</ShortName>
+					<Path>SFX\Explosion B_9E69E797.wem</Path>
+				</File>
+				<File Id="819325650" Language="SFX">
+					<ShortName>Mid Weapon 2.wav</ShortName>
+					<Path>SFX\Mid Weapon 2_9E69E797.wem</Path>
+				</File>
+				<File Id="867113985" Language="SFX">
+					<ShortName>Mid Weapon.wav</ShortName>
+					<Path>SFX\Mid Weapon_9E69E797.wem</Path>
+				</File>
+				<File Id="928694071" Language="SFX">
+					<ShortName>Heavy Weapon 1.wav</ShortName>
+					<Path>SFX\Heavy Weapon 1_9E69E797.wem</Path>
+				</File>
+				<File Id="937064009" Language="SFX">
+					<ShortName>Heavy Weapon 2.wav</ShortName>
+					<Path>SFX\Heavy Weapon 2_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{CF4DF854-2ABA-4756-88E4-8B0C7CDA663E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{DF615F98-6452-47B2-9ADE-0D8A1888B5ED}" ShortID="453073333">
+					<ChildrenList>
+						<Sound Name="Explosion A" ID="{8B8544F5-F216-4206-B340-C527C84C234B}" ShortID="354359852" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{77069ABD-482A-4722-AB1F-FB87E7135636}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="14"/>
+													<Property Name="Min" Type="Real64" Value="-14"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F88278E7-3867-4305-A1A8-35F1CC73E5EB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="379"/>
+													<Property Name="Min" Type="Real64" Value="-379"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Explosion A" ID="{9D769F13-4527-4930-8481-34E81A5B5348}" ShortID="352079389">
+									<Language>SFX</Language>
+									<AudioFile>Explosion A.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="Explosion B" ID="{2378AFE1-5A3A-474F-BBC3-F7487AB0DFA5}" ShortID="777841029">
+									<Language>SFX</Language>
+									<AudioFile>Explosion B.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Explosion B" ID="{2378AFE1-5A3A-474F-BBC3-F7487AB0DFA5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wall collision 2" ID="{A5B22769-7BF6-4076-A4E4-6EADEE9F04F0}" ShortID="740008343" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wall collision 2" ID="{E48B78C5-0A0D-4872-9813-E27CCB0357FA}" ShortID="352235859">
+									<Language>SFX</Language>
+									<AudioFile>Wall collision 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wall collision 2" ID="{E48B78C5-0A0D-4872-9813-E27CCB0357FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Standard hit" ID="{24C7C624-D2B4-4EA4-A10A-897492C698D6}" ShortID="901871074" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-400</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Standard hit" ID="{626D9FB1-590E-4ED4-92DE-CC57F16F884D}" ShortID="564197951">
+									<Language>SFX</Language>
+									<AudioFile>Standard hit.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Standard hit" ID="{626D9FB1-590E-4ED4-92DE-CC57F16F884D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Weapons Tracks" ID="{40A84185-FF6C-46E4-BB25-EA10FE8A1DE2}" ShortID="919455604">
+					<ChildrenList>
+						<Sound Name="Heavy Weapon 1" ID="{108B7714-DC30-4AB7-BD14-AE64CF9B3942}" ShortID="939426442" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heavy Weapon 1" ID="{C80C1920-B0E9-434A-BB33-399F8A233CCC}" ShortID="928694071">
+									<Language>SFX</Language>
+									<AudioFile>Heavy Weapon 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Fire" ID="{E17C3A23-018F-4463-87DF-E73152F61F20}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Heavy_Weapon_Level" ID="{39BB1945-26FE-48F2-B0E7-0BCE7531F46B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Fire_Light" ID="{344BDD09-DCBF-4F17-82DB-AE3C508AA883}"/>
+										<State Name="Custom State" ID="{43F09D61-4325-4F4F-8448-BB95D321E885}" ShortID="976979052">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Heavylvl2" ID="{1EEAEF12-898E-45A5-83AD-2F2DDBD0B1BC}"/>
+										<State Name="Custom State" ID="{6F29967F-1CA2-4853-9859-1018DD5778A8}" ShortID="992862311">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fire_Med" ID="{C83C6437-1AEE-4B24-BFE1-4FBDE6B511B9}"/>
+										<State Name="Custom State" ID="{43B59EF2-6B32-4966-8CA8-8F13CB3CF3CE}" ShortID="728631925">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+										<State Name="Custom State" ID="{8BE29372-5F4C-452D-98A8-F5C8FD745966}" ShortID="419435812">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Heavy Weapon 1" ID="{C80C1920-B0E9-434A-BB33-399F8A233CCC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heavy Weapon 2" ID="{1635E8AD-DD14-422F-AFD1-C34C8DBCEBEE}" ShortID="721622563" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heavy Weapon 2" ID="{56AA6625-B77A-4E31-9DA1-5017381DB81D}" ShortID="937064009">
+									<Language>SFX</Language>
+									<AudioFile>Heavy Weapon 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Fire" ID="{E17C3A23-018F-4463-87DF-E73152F61F20}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Heavy_Weapon_Level" ID="{39BB1945-26FE-48F2-B0E7-0BCE7531F46B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Fire_Light" ID="{344BDD09-DCBF-4F17-82DB-AE3C508AA883}"/>
+										<State Name="Custom State" ID="{5DA34016-1D2A-424A-8CDE-970DF40E01A3}" ShortID="260689238">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fire_Med" ID="{C83C6437-1AEE-4B24-BFE1-4FBDE6B511B9}"/>
+										<State Name="Custom State" ID="{F85C1793-A7DF-4DE2-893A-23F68C605947}" ShortID="486451562">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+										<State Name="Custom State" ID="{403B064C-9B7E-45B5-8147-355BB28E5F87}" ShortID="272026855">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Heavylvl1" ID="{2411E179-8465-41A9-9A42-371A52819ECE}"/>
+										<State Name="Custom State" ID="{FEB5DCBD-9551-44F3-B989-01CEA73B4076}" ShortID="931388112">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Heavy Weapon 2" ID="{56AA6625-B77A-4E31-9DA1-5017381DB81D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Light Weapon Gated" ID="{7B285461-92F6-497A-B817-4CCF70F7D936}" ShortID="704434624" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Light Weapon Gated" ID="{E06F22B8-5732-464D-98B1-7496D28E2672}" ShortID="335201519">
+									<Language>SFX</Language>
+									<AudioFile>Light Weapon Gated.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Fire" ID="{E17C3A23-018F-4463-87DF-E73152F61F20}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Light_Weapon_Level" ID="{E24AEF98-F31E-4D98-ABCD-A8FCEEA8553D}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Fire_Med" ID="{C83C6437-1AEE-4B24-BFE1-4FBDE6B511B9}"/>
+										<State Name="Custom State" ID="{59407CDE-47CA-4E3C-B9FD-D34D94FF1948}" ShortID="630106975">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+										<State Name="Custom State" ID="{0274DD34-C705-4BFD-A12E-FF1739FA5019}" ShortID="541149949">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fire_Heavy" ID="{EE065A9B-00BA-4C77-BAB8-4B473CFFAAB5}"/>
+										<State Name="Custom State" ID="{BBCFD094-E2AD-41D3-8E0A-AD3E777697EE}" ShortID="824259350">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Lightlvl1" ID="{61CE10DF-5023-40ED-98A3-E19339DFBAD2}"/>
+										<State Name="Custom State" ID="{7E2D7363-0091-4BD4-90DA-BF414A13C41A}" ShortID="836596880">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Light Weapon Gated" ID="{E06F22B8-5732-464D-98B1-7496D28E2672}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Light Weapon" ID="{BDACDA18-357F-46BA-84C0-7B63644B0F9B}" ShortID="284261236" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Light Weapon" ID="{12A3A35A-255E-43BF-A89F-1009529C264E}" ShortID="63400457">
+									<Language>SFX</Language>
+									<AudioFile>Light Weapon.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Fire" ID="{E17C3A23-018F-4463-87DF-E73152F61F20}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Light_Weapon_Level" ID="{E24AEF98-F31E-4D98-ABCD-A8FCEEA8553D}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Fire_Med" ID="{C83C6437-1AEE-4B24-BFE1-4FBDE6B511B9}"/>
+										<State Name="Custom State" ID="{5E1F4DB0-1322-4C59-9066-038C353203E6}" ShortID="501110324">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+										<State Name="Custom State" ID="{CCDE5258-706B-4D62-83AA-44F79F7D8652}" ShortID="145196912">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Lightlvl2" ID="{CBAD0E4A-9D8A-4726-842C-66F44BCF5659}"/>
+										<State Name="Custom State" ID="{7EEADA98-7481-49B6-A039-0A0D4FB0982D}" ShortID="347335543">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fire_Heavy" ID="{EE065A9B-00BA-4C77-BAB8-4B473CFFAAB5}"/>
+										<State Name="Custom State" ID="{258562D1-C5BA-4AB2-9DBD-FA45A6B87BBC}" ShortID="848789009">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Light Weapon" ID="{12A3A35A-255E-43BF-A89F-1009529C264E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Mid Weapon 2" ID="{EB7FC1E1-9C51-4F2B-A9BB-411809B8B2C3}" ShortID="49652663" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mid Weapon 2" ID="{D7B772C2-9320-4B3A-A35F-4B38C27547D7}" ShortID="819325650">
+									<Language>SFX</Language>
+									<AudioFile>Mid Weapon 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Fire" ID="{E17C3A23-018F-4463-87DF-E73152F61F20}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Medium_Weapon_Level" ID="{AB1097CE-E1A2-4A71-90A0-4357A2431AE0}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Fire_Light" ID="{344BDD09-DCBF-4F17-82DB-AE3C508AA883}"/>
+										<State Name="Custom State" ID="{6EC1DBDE-3DDF-4D89-B7F4-B62F9AC2AE31}" ShortID="978645473">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+										<State Name="Custom State" ID="{26E20173-3FAC-4CFA-8C40-F4A401C7753C}" ShortID="455816705">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Medlvl1" ID="{CA112F6C-DBCA-49F3-BC76-0339E61647D7}"/>
+										<State Name="Custom State" ID="{3E4E462F-9307-4CC4-8A97-E2B90BA39367}" ShortID="108466528">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fire_Heavy" ID="{EE065A9B-00BA-4C77-BAB8-4B473CFFAAB5}"/>
+										<State Name="Custom State" ID="{C71FB592-28D4-4B97-AB91-07775467B7BC}" ShortID="274198184">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Mid Weapon 2" ID="{D7B772C2-9320-4B3A-A35F-4B38C27547D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Mid Weapon" ID="{702EA683-EC0E-4E76-8AB7-9585C08C456A}" ShortID="583651630" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mid Weapon" ID="{5BE72539-E3CA-4895-AC49-7BD60439EACE}" ShortID="867113985">
+									<Language>SFX</Language>
+									<AudioFile>Mid Weapon.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Fire" ID="{E17C3A23-018F-4463-87DF-E73152F61F20}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="Medium_Weapon_Level" ID="{AB1097CE-E1A2-4A71-90A0-4357A2431AE0}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Fire_Light" ID="{344BDD09-DCBF-4F17-82DB-AE3C508AA883}"/>
+										<State Name="Custom State" ID="{9709F9F1-A307-4F22-A7FE-99E1A7CE1304}" ShortID="323710009">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="No_Fire" ID="{7275C43E-D80D-469A-8795-07125DF34F10}"/>
+										<State Name="Custom State" ID="{2ACEA252-1537-465F-90AD-1816BD4BFE85}" ShortID="3199064">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fire_Heavy" ID="{EE065A9B-00BA-4C77-BAB8-4B473CFFAAB5}"/>
+										<State Name="Custom State" ID="{F69D225A-E8D5-479D-A542-F775C5345833}" ShortID="376302128">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Medlvl2" ID="{8CC17AF8-A486-4A99-B9C9-80B6AEADE0F3}"/>
+										<State Name="Custom State" ID="{099D413D-5BC4-4181-A1F5-004BB50A22A3}" ShortID="438458099">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Mid Weapon" ID="{5BE72539-E3CA-4895-AC49-7BD60439EACE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Back Tracks" ID="{9CA78BDD-8F0E-4411-9B34-5ACE129630CF}" ShortID="867688055">
+					<ChildrenList>
+						<Sound Name="Back Track v2" ID="{A10F8E41-565E-4D1F-BA19-D3BD3977972B}" ShortID="536177398" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Back Track v2" ID="{CA85B769-64A0-44F6-BBBA-6D802C07D83D}" ShortID="257142319">
+									<Language>SFX</Language>
+									<AudioFile>Back Track v2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Back Track v2" ID="{CA85B769-64A0-44F6-BBBA-6D802C07D83D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Back Track" ID="{485E72F5-C06F-4936-8134-9114FF1F5F35}" ShortID="195179830" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Back Track" ID="{19F8DA1C-E12F-4E05-A626-7E8C9A04E002}" ShortID="108444384">
+									<Language>SFX</Language>
+									<AudioFile>Back Track.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Back Track" ID="{19F8DA1C-E12F-4E05-A626-7E8C9A04E002}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Drum Track" ID="{0D84AED5-49CB-4DE5-8CAA-3D554C0488A0}" ShortID="548603437" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{14A1B04E-FFF9-44F9-9117-D641CEF828E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CD8F74DE-0452-49F1-A926-F43010339F80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Drum Track" ID="{2FC7EAD8-BC2D-4098-90BC-416A2D6A353D}" ShortID="453298047">
+									<Language>SFX</Language>
+									<AudioFile>Drum Track.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Drum Track" ID="{2FC7EAD8-BC2D-4098-90BC-416A2D6A353D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

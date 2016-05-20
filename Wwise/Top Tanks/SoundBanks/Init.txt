@@ -1,0 +1,26 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	219679869	Light_Weapon_Level			\Default Work Unit\Light_Weapon_Level	
+	254207936	Medium_Weapon_Level			\Default Work Unit\Medium_Weapon_Level	
+	2322619338	Heavy_Weapon_Level			\Default Work Unit\Heavy_Weapon_Level	
+	2678880713	Fire			\Default Work Unit\Fire	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Light_Weapon_Level			
+	4053378148	Lightlvl1	Light_Weapon_Level			
+	4053378151	Lightlvl2	Light_Weapon_Level			
+	748895195	None	Medium_Weapon_Level			
+	3249424521	Medlvl2	Medium_Weapon_Level			
+	3249424522	Medlvl1	Medium_Weapon_Level			
+	748895195	None	Heavy_Weapon_Level			
+	2393476185	Heavylvl1	Heavy_Weapon_Level			
+	2393476186	Heavylvl2	Heavy_Weapon_Level			
+	134066134	Fire_Med	Fire			
+	673833536	Fire_Light	Fire			
+	748895195	None	Fire			
+	2045292529	Fire_Heavy	Fire			
+	3752417319	No_Fire	Fire			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
